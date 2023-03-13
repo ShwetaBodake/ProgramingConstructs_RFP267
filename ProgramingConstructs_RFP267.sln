@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramingConstructs_RFP267", "ProgramingConstructs_RFP267\ProgramingConstructs_RFP267.csproj", "{802E238D-E425-4CDF-940B-3743DD37E393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802E238D-E425-4CDF-940B-3743DD37E393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802E238D-E425-4CDF-940B-3743DD37E393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802E238D-E425-4CDF-940B-3743DD37E393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802E238D-E425-4CDF-940B-3743DD37E393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E336CE8A-86C1-40B8-A245-1637DF9E0BF3}
+	EndGlobalSection
+EndGlobal
