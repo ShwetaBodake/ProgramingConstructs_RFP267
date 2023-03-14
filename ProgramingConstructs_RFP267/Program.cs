@@ -8,7 +8,7 @@ namespace ProgramingConstructs_RFP267
         {
             Console.WriteLine("----------Welcome to Programing Constructs------------");
             Console.WriteLine("Choose program from givin Option 1:Check numbers are equal are not\n 2:Display Even or Odd number\n " +
-                "3:Find eligibility for Voting\n 4:Find largest number of three");
+                "3:Find eligibility for Voting\n 4:Find largest number of three\n 5:Calculate weekdayy name by giving week number");
 
             int option=Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -24,6 +24,10 @@ namespace ProgramingConstructs_RFP267
                     break;
                 case 4:
                     LargestOfThreeNumbers.LargestOfThreeNumbersDisplay();
+                    break;
+                case 5:
+                    CalculateWeekdayName weekdayName = new CalculateWeekdayName();
+                    weekdayName.CalculateWeekdayNameDisplay();
                     break;
                 default:
                     Console.WriteLine("Enter number within givin option");
