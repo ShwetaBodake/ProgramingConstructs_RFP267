@@ -10,7 +10,7 @@ namespace ProgramingConstructs_RFP267
             Console.WriteLine("Choose program from givin Option 1:Check numbers are equal are not\n 2:Display Even or Odd number\n " +
                 "3:Find eligibility for Voting\n 4:Find largest number of three\n " +
                 "5:Calculate weekdayy name by giving week number\n 6:Arithmatic operations\n 7:Power of two table value" +
-                "\n8:Sum of Squars of number \n9:Factorial Number ");
+                "\n8:Sum of Squars of number \n9:Factorial Number \n10:Rverse the givin word");
 
             int option=Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -43,6 +43,9 @@ namespace ProgramingConstructs_RFP267
                     break;
                 case 9:
                     FactorialNumber.FactorialNumberdisplay();
+                    break;
+                case 10:
+                    ReverseString.ReverseStringDisplay();
                     break;
                 default:
                     Console.WriteLine("Enter number within givin option");
