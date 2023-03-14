@@ -7,7 +7,8 @@ namespace ProgramingConstructs_RFP267
         public static void Main(string[] args)
         {
             Console.WriteLine("----------Welcome to Programing Constructs------------");
-            Console.WriteLine("Choose program from givin Option 1:Check numbers are equal are not\n 2:Display Even or Odd number");
+            Console.WriteLine("Choose program from givin Option 1:Check numbers are equal are not\n 2:Display Even or Odd number\n " +
+                "3:Find eligibility for Voting");
 
             int option=Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -17,6 +18,9 @@ namespace ProgramingConstructs_RFP267
                     break;
                 case 2:
                     EvenOddNumbers.EvenOddNumbersDisplay();
+                    break;
+                case 3:
+                    EligibilityForVote.EligibilityForVoteFind();
                     break;
                 default:
                     Console.WriteLine("Enter number within givin option");
