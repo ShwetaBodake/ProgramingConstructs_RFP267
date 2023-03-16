@@ -11,7 +11,7 @@ namespace ProgramingConstructs_RFP267
                 "3:Find eligibility for Voting\n 4:Find largest number of three\n " +
                 "5:Calculate weekdayy name by giving week number\n 6:Arithmatic operations\n 7:Power of two table value" +
                 "\n8:Sum of Squars of number \n9:Factorial Number \n10:Rverse the givin word " +
-                "\n11:Flip Coin Program\n12:Check candidate eligibility for admission\n13:Sum of natural numbers ");
+                "\n11:Flip Coin Program\n12:Check candidate eligibility for admission\n13:Sum of natural numbers\n14:Reverse string using while loop ");
 
             int option=Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -56,6 +56,9 @@ namespace ProgramingConstructs_RFP267
                     break;
                 case 13:
                     SumOfNaturalNumbers.DieplaySumOfNaturalNumbers();
+                    break;
+                case 14:
+                    ReverseString.ReverseStringDisplay();
                     break;
                 default:
                     Console.WriteLine("Enter number within givin option");
